@@ -1,0 +1,19 @@
+{
+  "name": "discord-server-builder",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Scripts that build, theme, and maintain a Discord server via the Discord REST API",
+  "scripts": {
+    "build:server": "node build.mjs",
+    "meridian-pass": "node meridian_pass.mjs",
+    "set-icon": "node set_icon.mjs",
+    "dump": "node dump.mjs"
+  },
+  "dependencies": {
+    "discord.js": "^14.26.3",
+    "dotenv": "^16.4.5"
+  },
+  "author": "Mathew Vasilescu",
+  "license": "UNLICENSED"
+}
